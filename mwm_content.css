@@ -1,0 +1,47 @@
+.title {
+    font-size: 38px;
+    color:#2D6FAA;
+    font-style: normal;
+    border: none;
+}
+.service-selection{
+    font-size: 12px;
+    color: #fff;
+    font-style: normal;
+    background-color: #149c38;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+    height: 20px;
+}
+.service-buttons{
+    margin-top: 30px;
+}
+.productButton{
+    margin-right: 10px;
+}
+.equipmentButton{
+    margin-right: 50px;
+    margin-left: 80px;
+}
+.offersButton{
+    margin-right: 80px;
+    margin-left: 50px;
+}
+.trainingButton{
+    margin-left: 10px;
+}
+.content{
+    width: auto;
+    height: 500px;
+    border: none;
+}
+.scanningSection{
+    border-color: #2D6FAA;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-left: none;
+    border-right: none;
+}

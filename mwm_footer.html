@@ -1,0 +1,29 @@
+<template>
+    <div class="c-container">
+        <div class="row-bottom__col2-row2">
+        </div>
+        <div class="row-top">
+            <template iterator:it={linksList}>
+                <a key={it.value.id} href={it.value.href} target={it.value.target} >
+                    {it.value.label}
+                </a>
+            </template>
+        </div>
+        <div class="row-bottom">
+            <!--div class="row-bottom__col1">
+                <span>MWM Logo</span>
+            </div-->
+
+            <div class="row-bottom__col2">
+                <div class="row-bottom__col2-row1">
+                    <div class="footer-text slds-align_absolute-center">
+                        <span>CATERPILLAR ENERGY SOLUTIONS GMBH, 2023</span>
+                    </div>
+                </div>
+
+                <!--div class="row-bottom__col2-row2">
+                </div-->
+            </div>
+        </div>
+    </div>
+</template>

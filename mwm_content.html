@@ -1,0 +1,35 @@
+<template>
+    <div class="content">
+        <lightning-card>
+            <h3 slot="title" class="title">
+                Support For The Lifetime Of Your Equipment
+            </h3>
+            <hr>
+            <p>We offer a variety of services to help you control your costs, manage risks, and safeguard your investment over the lifetime of your equipment</p>
+        </lightning-card>
+        <div class="scanningSection slds-border_top slds-border_bottom">
+            <lightning-card>
+                Serial Number and Code Scanner
+            </lightning-card>
+        </div>
+        <div class="service-selection slds-align_absolute-center">
+            <span>Find Your Service Or Sales Contact Partner</span>
+        </div>
+        <lightning-card>
+            <div class="service-buttons slds-align_absolute-center">
+                <div class="productButton">
+                    <lightning-button variant="brand-outline" label="One" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+                </div>
+                <div class="equipmentButton">
+                    <lightning-button variant="brand-outline" label="Two" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+                </div>
+                <div class="offersButton">
+                    <lightning-button variant="brand-outline" label="Three" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+                </div>
+                <div class="trainingButton">
+                    <lightning-button variant="brand-outline" label="Four" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+                </div>
+            </div>
+        </lightning-card>
+    </div>
+</template>

@@ -1,0 +1,27 @@
+<template>
+    <div class="c-container">
+        <div class="row-top">
+            <div class="row-top__col1">
+                <span>MWM Logo</span>
+            </div>
+
+            <div class="row-top__col2">
+                <div class="row-top__col2-row1">
+                    <span>EN</span>
+                </div>
+
+                <div class="row-top__col2-row2">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row-bottom">
+            <template iterator:it={linksList}>
+                <a key={it.value.id} href={it.value.href} target={it.value.target} >
+                    {it.value.label}
+                </a>
+            </template>
+        </div>
+    </div>
+</template>
